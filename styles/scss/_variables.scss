@@ -1,0 +1,38 @@
+:root {
+  --background-primary: linear-gradient(
+    to bottom,
+    hsla(252, 100%, 67%, 1) 0%,
+    hsla(252, 100%, 63%, 1) 0.01%,
+    hsla(241, 81%, 54%, 1) 100%
+  );
+
+  --background-secondary: linear-gradient(
+    to bottom,
+    hsla(256, 71%, 46%, 1) 0%,
+    hsla(241, 71%, 46%, 0) 100%
+  );
+
+  --color-off-blue: hsla(241, 100%, 89%, 1);
+  --color-navy: hsla(223, 30%, 27%, 1);
+  --color-white: hsla(0, 0%, 100%, 1);
+
+  --color-red: hsla(0, 100%, 67%, 1);
+  --color-red-light: hsla(0, 100%, 98%, 1);
+  --color-yellow: hsla(40, 100%, 56%, 1);
+  --color-yellow-light: hsla(40, 100%, 98%, 1);
+  --color-green: hsla(166, 100%, 37%, 1);
+  --color-green-light: hsla(166, 100%, 98%, 1);
+  --color-blue: hsla(234, 85%, 45%, 1);
+  --color-blue-light: hsla(234, 85%, 98%, 1);
+
+  --fs-title: 1.125rem;
+  --fs-body: 1rem;
+  --fs-big: 3.5rem;
+  --fs-summary: 2rem;
+
+  --fw-bold: 800;
+  --fw-semi-bold: 700;
+  --fw-medium: 500;
+}
+
+$breakpoint-desktop: 600px;
