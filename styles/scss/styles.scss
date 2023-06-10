@@ -48,6 +48,12 @@ h6 {
   isolation: isolate;
 }
 
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
 article {
   display: grid;
   place-content: center;
@@ -57,13 +63,21 @@ article {
   font-size: var(--fs-body);
   font-family: "Hanken Grotesk";
   font-weight: var(--fw-medium);
+  width: 100%;
 
   @media screen and (min-width: v.$breakpoint-desktop) {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     place-content: center;
-
+    margin: 0rem;
+    width: 100%;
+    max-width: 1200px;
     box-shadow: 60px 30px 30px rgba(61, 108, 236, 0.15);
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin: 4rem;
+    width: 80%;
   }
 }
 
